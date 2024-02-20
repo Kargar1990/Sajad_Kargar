@@ -1,0 +1,24 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  title: "Welcome to Sajad's Portfolio"
+  navbar:
+    left: 
+      - Home.qmd
+      - Experiences.qmd
+      - Projects.qmd
+      - Publications.qmd
+      - Skills.qmd
+      - Honors.qmd
+      - Contact.qmd
+
+format:
+  html:
+    theme: jolla
+    css: styles.css
+    toc: true
+    extras: 
+      - "favicon.ico"
+      - "profile.jpg"
