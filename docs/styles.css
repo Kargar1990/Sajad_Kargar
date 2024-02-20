@@ -1,0 +1,10 @@
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 70%; /* This will make the image circular */
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
+  margin-bottom: 20px; /* Adjust spacing */
+}
