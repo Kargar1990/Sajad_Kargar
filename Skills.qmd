@@ -1,5 +1,5 @@
 ---
-title: "Software Skills"
+title: "Skills"
 format: html
 editor: visual
 ---

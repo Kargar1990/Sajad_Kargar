@@ -1,5 +1,5 @@
 ---
-title: "Midterm explanation"
+title: "Midterm"
 format: html
 editor: visual
 ---

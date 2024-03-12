@@ -1,5 +1,5 @@
 ---
-title: "Work & Research Experiences"
+title: "Experiences"
 format: html
 editor: visual
 ---
