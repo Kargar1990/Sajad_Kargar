@@ -117,5 +117,26 @@
     "title": "Projects",
     "section": "",
     "text": "Switch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
+  },
+  {
+    "objectID": "Midterm recording.html",
+    "href": "Midterm recording.html",
+    "title": "Projects",
+    "section": "",
+    "text": "First try code:\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\n\n\nSecond try code:"
+  },
+  {
+    "objectID": "Midterm explanation.html",
+    "href": "Midterm explanation.html",
+    "title": "Midterm explanation",
+    "section": "",
+    "text": "There are several issues with this 3D bar chart that affect its readability and effectiveness:\n\nPerspective distortion: It is difficult to compare the heights of the bars accurately due to the 3D perspective. Due to the angle, the data may appear shorter in the back than in the front.\nColor usage: The use of different colors might be intended to differentiate between groups, but color blind individuals may have difficulty distinguishing between categories because of the similarity in hues.\nData density: There is a lot of graphic space used to display a relatively small amount of data in the chart. By adding too much visual information to a chart, it could appear cluttered and overpower the viewer.\nInk ratio: The ratio of ink to data is high, so a lot of ink is used to present the data, which is unnecessary and does not add value.\nDepth occlusion: From the perspective of the viewer, bars in front can obscure bars behind them, obscuring some data points or partially obscuring them.\nQuantitative comparison: With a 3D effect, there is a third dimension that is not a data dimension, complicating a quantitative comparison that should be straightforward.\nAbsence of gridlines: As a result of the 3D perspective, the gridlines are not aligned with the front of the bars, which would have helped to assess their height.\n\n\n\n\nSwitch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
+  },
+  {
+    "objectID": "Midterm explanation.html#what-could-improve-this-visualization",
+    "href": "Midterm explanation.html#what-could-improve-this-visualization",
+    "title": "Midterm explanation",
+    "section": "",
+    "text": "Switch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
   }
 ]

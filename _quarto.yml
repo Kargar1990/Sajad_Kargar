@@ -8,7 +8,7 @@ website:
     left: 
       - Home.qmd
       - Experiences.qmd
-      - Projects.qmd
+      - Midterm explanation.qmd
       - Publications.qmd
       - Skills.qmd
       - Honors.qmd

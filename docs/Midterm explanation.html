@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to Sajad’s Portfolio - Contact</title>
+<title>Welcome to Sajad’s Portfolio - Midterm explanation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,8 +90,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Experiences</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Midterm explanation.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="./Midterm explanation.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Midterm explanation</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Publications.html" rel="" target="">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Honors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Contact.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./Contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -125,7 +125,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contact-us" id="toc-contact-us" class="nav-link active" data-scroll-target="#contact-us">Contact Us</a></li>
+  <li><a href="#bad-visualization" id="toc-bad-visualization" class="nav-link active" data-scroll-target="#bad-visualization">Bad Visualization</a>
+  <ul class="collapse">
+  <li><a href="#what-could-improve-this-visualization" id="toc-what-could-improve-this-visualization" class="nav-link" data-scroll-target="#what-could-improve-this-visualization">What could improve this visualization:</a></li>
+  </ul></li>
+  <li><a href="#first-attempt" id="toc-first-attempt" class="nav-link" data-scroll-target="#first-attempt">First attempt</a></li>
+  <li><a href="#second-attempt" id="toc-second-attempt" class="nav-link" data-scroll-target="#second-attempt">Second attempt</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -134,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact</h1>
+<h1 class="title">Midterm explanation</h1>
 </div>
 
 
@@ -149,81 +155,57 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="contact-us" class="level1">
-<h1>Contact Us</h1>
-<p>Wish to enquire about projects, publications, or anything else? You can reach me via phone or email, or by filling out the form below.</p>
-<div class="contact-info">
-<div class="contact-info">
-<h2 class="anchored" data-anchor-id="contact-us">
-Address
-</h2>
-<p>
-IABR, 10920 George Mason Circle, Manassas, VA 20110 United States
-</p>
-<h2 class="anchored">
-Phone
-</h2>
-<p>
-+1-646-646-4828
-</p>
-<h2 class="anchored">
-Email
-</h2>
-<p>
-<a href="mailto:skargar@gmu.edu">skargar@gmu.edu</a>
-</p>
+<section id="bad-visualization" class="level1">
+<h1>Bad Visualization</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="badvisualization.PNG" class="img-fluid figure-img" width="407"></p>
+</figure>
 </div>
+<p>There are several issues with this 3D bar chart that affect its readability and effectiveness:</p>
+<ol type="1">
+<li><p><strong>Perspective distortion:</strong> It is difficult to compare the heights of the bars accurately due to the 3D perspective. Due to the angle, the data may appear shorter in the back than in the front.</p></li>
+<li><p><strong>Color usage:</strong> The use of different colors might be intended to differentiate between groups, but color blind individuals may have difficulty distinguishing between categories because of the similarity in hues.</p></li>
+<li><p><strong>Data density:</strong> There is a lot of graphic space used to display a relatively small amount of data in the chart. By adding too much visual information to a chart, it could appear cluttered and overpower the viewer.</p></li>
+<li><p><strong>Ink ratio:</strong> The ratio of ink to data is high, so a lot of ink is used to present the data, which is unnecessary and does not add value.</p></li>
+<li><p><strong>Depth occlusion:</strong> From the perspective of the viewer, bars in front can obscure bars behind them, obscuring some data points or partially obscuring them.</p></li>
+<li><p><strong>Quantitative comparison:</strong> With a 3D effect, there is a third dimension that is not a data dimension, complicating a quantitative comparison that should be straightforward.</p></li>
+<li><p><strong>Absence of gridlines:</strong> As a result of the 3D perspective, the gridlines are not aligned with the front of the bars, which would have helped to assess their height.</p></li>
+</ol>
+<section id="what-could-improve-this-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="what-could-improve-this-visualization">What could improve this visualization:</h2>
+<ul>
+<li><p><strong>Switch to a 2D plot:</strong> Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.</p></li>
+<li><p><strong>Consistent scale:</strong> To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.</p></li>
+<li><p><strong>Simplify color scheme:</strong> To distinguish between the groups, use simpler color schemes or different patterns/shades.</p></li>
+<li><p><strong>Use of gridlines:</strong> To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.</p></li>
+<li><p><strong>Direct labeling:</strong> In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.</p></li>
+<li><p><strong>Interactive elements:</strong> A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.</p></li>
+<li><p><strong>Prioritize key data:</strong> To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information.</p></li>
+</ul>
+</section>
+</section>
+<section id="first-attempt" class="level1">
+<h1>First attempt</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="finaltry.png" class="img-fluid figure-img"></p>
+</figure>
 </div>
-<div class="contact-form">
-<form action="mailto:skargar@gmu.edu" method="POST" enctype="text/plain">
-<p><label for="name">Full name</label> <input type="text" id="name" name="name" placeholder="Your full name" required=""></p>
-<p><label for="email">Email address</label> <input type="email" id="email" name="email" placeholder="Your email" required=""></p>
-<p><label for="subject">Subject</label> <input type="text" id="subject" name="subject" placeholder="Subject" required=""></p>
-<p><label for="message">Your message</label></p>
-<textarea id="message" name="message" placeholder="Write something..." style="height:200px" required=""></textarea>
-<p><input type="submit" value="Submit"></p>
-</form>
+<p>This visualization offers a clearer comparison of unadjusted 5-year mortality rates depending on hematocrit level and epoetin dose quartile. As the graph is in a 2D format, perspective distortion is eliminated, enabling a direct and accurate comparison of mortality rates. Horizontal layout provides a better visual flow and efficient use of space, allowing each bar to be easily distinguished. As a result of the use of distinct colors for each dose quartile, the data can be visually separated and assessed in a more precise manner due to the consistent scale and gridlines. Overall, the new design adheres to best practices in data visualization, presenting critical metrics in a concise and informative manner.</p>
+</section>
+<section id="second-attempt" class="level1">
+<h1>Second attempt</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="finaltry2.png" class="img-fluid figure-img"></p>
+</figure>
 </div>
-<style>  
-  .contact-info, .contact-form {    
-  margin-bottom: 1em;  
-  }  
-  
-label {    
-  display: block;    
-  margin-top: 0.5em;  
-}  
-
-input[type=text], input[type=email], textarea {    
-  width: 100%;    
-  padding: 0.75em;    
-  margin-top: 0.25em;    
-  margin-bottom: 0.5em;    
-  border: 1px solid #ccc;    
-  border-radius: 4px;    
-  box-sizing: border-box;  
-}
-
-input[type=submit] {    
-  width: 100%;    
-  background-color: #4CAF50;    
-  color: white;    
-  padding: 14px 20px;    
-  margin: 8px 0;    
-  border: none;    
-  border-radius: 4px;    
-  cursor: pointer;  
-}
-
-input[type=submit]:hover {    
-  background-color: #45a049;  
-}
-
-form {    
-  max-width: 600px;  
-}
-
-</style>
+<p>The new visualization of the dot plot improves the readability of the data as well as its aesthetic appeal when compared to the initial 2D bar plot. Firstly, the dot plot’s minimalistic design allows the viewer to concentrate directly on the data points without being distracted by bars, facilitating a quicker comparison of mortality rates across different hematocrit levels and epoetin dose quartiles. By clearly separating points, the spread and central tendency of each category are immediately apparent. Moreover, color-coded dots rather than bars with varying heights simplify comparative analysis; the viewer can easily trace horizontally across the plot to compare mortality rates within a specific quartile, making inter-quartile comparisons easier. Additionally, Tufte’s principle of data-ink maximization stresses the importance of only displaying information that contributes to the viewer’s understanding by reducing non-data ink. Dot plots also avoid the visual impression of volume traditionally associated with bar charts. In contrast, dots represent only the value they are assigned, without any additional visual weight. Last but not least, positioning “All” at the end of the x-axis gives it a natural conclusion, providing an overview after detailing individual categories, which aligns with the way we process information-from detail to summary.</p>
+</section>
+<section id="reference" class="level1">
+<h1>Reference</h1>
+<p>[1] Cotter, D. J., Stefanik, K., Zhang, Y., Thamer, M., Scharfstein, D., &amp; Kaufman, J. (2004). Hematocrit was not validated as a surrogate end point for survival among epoetin-treated hemodialysis patients. <em>Journal of clinical epidemiology</em>, 57(10), 1086-1095. <a href="https://doi.org/10.1016/j.jclinepi.2004.05.002" class="uri">https://doi.org/10.1016/j.jclinepi.2004.05.002</a></p>
 
 
 </section>
