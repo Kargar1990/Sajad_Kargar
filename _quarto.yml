@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website: 
-  title: "Welcome to Sajad's Portfolio"
+  title: "Sajad's Portfolio"
   navbar:
     left: 
       - Home.qmd
       - Experiences.qmd
-      - Midterm explanation.qmd
       - Publications.qmd
       - Skills.qmd
       - Honors.qmd
       - Contact.qmd
+      - Midterm_explanation.qmd
+      - Midterm_recording.qmd
 
 format:
   html:
