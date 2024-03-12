@@ -3,3 +3,54 @@ title: "Skills"
 format: html
 editor: visual
 ---
+
+## Software Skills
+
+### Computational
+
+-   Autodesk CFD
+-   ANSYS Fluent
+-   STAR CCM+
+-   ICEM CFD
+-   Rocky DEM
+-   CFD
+-   COMSOL
+-   Abaqus
+-   Materials Studio
+-   GROMACS
+
+### Programming
+
+-   Python
+-   LAMMPS
+-   C++
+-   MATLAB
+-   VMD
+-   NAMD
+-   Maple
+-   Packmol
+-   EES
+
+### Modeling
+
+-   CATIA
+-   SolidWorks
+-   Lumerical
+-   AutoCAD
+-   GeoStudio
+-   Plaxis
+-   Gambit
+
+### Data Analysis
+
+-   Data Visualizations (R)
+-   Data Analytics
+-   Data Mining
+-   Big Data Processing
+
+### General
+
+-   Adobe Premiere/Photoshop
+-   LaTeX
+-   Tecplot
+-   Microsoft Office
