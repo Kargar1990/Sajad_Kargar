@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Midterm recording"
 format: html
 editor: visual
 ---
@@ -98,4 +98,10 @@ ggplot(mortality_data, aes(x = Hematocrit_Group, y = Mortality_Rate, color = Dos
 ggsave("mortality_rates_lollipop.png", width = 12, height = 6)
 
 
+```
+
+# My presentation:
+
+```         
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0jKa5T0n7Dk" frameborder="0" allowfullscreen></iframe>
 ```
