@@ -3,3 +3,39 @@ title: "Honors"
 format: html
 editor: visual
 ---
+
+## Honors & Awards
+
+-   **Presidential Scholarship**\
+    Awarded as 1 out of 30 Ph.D. candidates in Mechanical Engineering, exclusively chosen for full four-year program support with no other recipients until my graduation.\
+    *Fairfax, VA, USA*
+
+-   **1st Place, CEC Innovation Week Poster Competition**\
+    Awarded 1st place in the CEC Innovation Week poster competition.\
+    *Fairfax, VA, USA*
+
+-   **Inventive Engineer**\
+    Chosen as the Inventive Engineer at Sanat Zaman Company.\
+    *Tehran, Iran*
+
+-   **Senior Mechanical Design Engineer**\
+    Chosen as the Senior Mechanical Design Engineer at ORVISS Company.\
+    *Tehran, Iran*
+
+-   **Best Mechanics Magazine Author**\
+    Certified as the best Mechanics Magazine Author in Tafresh University.\
+    *Tehran, Iran*
+
+-   **12th Place**\
+    Among more than 400,000 participants in the entrance exam of Azad University.\
+    *Iran*
+
+-   **7th Place, Nationwide Olympiad in Mathematics**\
+    *Iran*
+
+-   **Finalist, Nationwide Olympiad in Physics and Mathematics**\
+    *Iran*
+
+-   **Gold Prize, Markazi Olympiad in Mathematics**\
+    Among more than 10,000 candidates.\
+    *Arak, Iran*
