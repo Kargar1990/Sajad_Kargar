@@ -3,3 +3,152 @@ title: "Projects"
 format: html
 editor: visual
 ---
+
+# Bad Visualization
+
+![](badvisualization.PNG){fig-align="center" width="407"}
+
+There are several issues with this 3D bar chart that affect its readability and effectiveness:
+
+1.  **Perspective distortion:** It is difficult to compare the heights of the bars accurately due to the 3D perspective. Due to the angle, the data may appear shorter in the back than in the front.
+
+2.  **Color usage:** The use of different colors might be intended to differentiate between groups, but color blind individuals may have difficulty distinguishing between categories because of the similarity in hues.
+
+3.  **Data density:** There is a lot of graphic space used to display a relatively small amount of data in the chart. By adding too much visual information to a chart, it could appear cluttered and overpower the viewer.
+
+4.  **Ink ratio:** The ratio of ink to data is high, so a lot of ink is used to present the data, which is unnecessary and does not add value.
+
+5.  **Depth occlusion:** From the perspective of the viewer, bars in front can obscure bars behind them, obscuring some data points or partially obscuring them.
+
+6.  **Quantitative comparison:** With a 3D effect, there is a third dimension that is not a data dimension, complicating a quantitative comparison that should be straightforward.
+
+7.  **Absence of gridlines:** As a result of the 3D perspective, the gridlines are not aligned with the front of the bars, which would have helped to assess their height.
+
+## What could improve this visualization:
+
+-   **Switch to a 2D plot:** Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.
+
+-   **Consistent scale:** To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.
+
+-   **Simplify color scheme:** To distinguish between the groups, use simpler color schemes or different patterns/shades.
+
+-   **Use of gridlines:** To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.
+
+-   **Direct labeling:** In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.
+
+-   **Interactive elements:** A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.
+
+-   **Prioritize key data:** To focus the viewer's attention on what matters most, highlight key data or trends and consider removing less critical information.
+
+# First attempt
+
+![](finaltry.png){fig-align="center"}
+
+This visualization offers a clearer comparison of unadjusted 5-year mortality rates depending on hematocrit level and epoetin dose quartile. As the graph is in a 2D format, perspective distortion is eliminated, enabling a direct and accurate comparison of mortality rates. Horizontal layout provides a better visual flow and efficient use of space, allowing each bar to be easily distinguished. As a result of the use of distinct colors for each dose quartile, the data can be visually separated and assessed in a more precise manner due to the consistent scale and gridlines. Overall, the new design adheres to best practices in data visualization, presenting critical metrics in a concise and informative manner.
+
+# Second attempt
+
+![](finaltry2.png){fig-align="center"}
+
+The new visualization of the dot plot improves the readability of the data as well as its aesthetic appeal when compared to the initial 2D bar plot. Firstly, the dot plot's minimalistic design allows the viewer to concentrate directly on the data points without being distracted by bars, facilitating a quicker comparison of mortality rates across different hematocrit levels and epoetin dose quartiles. By clearly separating points, the spread and central tendency of each category are immediately apparent. Moreover, color-coded dots rather than bars with varying heights simplify comparative analysis; the viewer can easily trace horizontally across the plot to compare mortality rates within a specific quartile, making inter-quartile comparisons easier. Additionally, Tufte's principle of data-ink maximization stresses the importance of only displaying information that contributes to the viewer's understanding by reducing non-data ink. Dot plots also avoid the visual impression of volume traditionally associated with bar charts. In contrast, dots represent only the value they are assigned, without any additional visual weight. Last but not least, positioning "All" at the end of the x-axis gives it a natural conclusion, providing an overview after detailing individual categories, which aligns with the way we process information-from detail to summary.
+
+# Reference
+
+\[1\] Cotter, D. J., Stefanik, K., Zhang, Y., Thamer, M., Scharfstein, D., & Kaufman, J. (2004). Hematocrit was not validated as a surrogate end point for survival among epoetin-treated hemodialysis patients. *Journal of clinical epidemiology*, 57(10), 1086-1095. <https://doi.org/10.1016/j.jclinepi.2004.05.002>
+
+# First try code:
+
+```{r, echo = FALSE}
+# Load required libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+
+# Define the mortality rates dataframe
+mortality_data <- data.frame(
+  Dose_Quartile = rep(c('Q1', 'Q2', 'Q3', 'Q4', 'All'), each = 6),
+  Hematocrit_Group = rep(c("<30%", "30% to <33%", "33% to <36%", "36% to <39%", ">=39%", "All"), times = 5),
+  Mortality_Rate = c(
+    271, 245, 185, 184, 177, 203, # Q1 data
+    344, 278, 212, 195, 186, 232, # Q2 data
+    425, 316, 247, 199, 180, 265, # Q3 data
+    501, 354, 280, 227, 196, 310, # Q4 data
+    412, 297, 225, 200, 186, 251  # All data
+  )
+)
+
+
+
+# Create the plot
+ggplot(mortality_data, aes(x = Hematocrit_Group, y = Mortality_Rate, fill = Dose_Quartile)) +
+  geom_bar(stat = "identity", position = position_dodge(width= 0.7)) +
+  scale_fill_brewer(palette = "Set2") +
+  labs(title = "Unadjusted 1-year Mortality Rates per 1,000 Patients",
+       subtitle = "By Hematocrit Level and Epoetin Dose Quartile",
+       x = "Hematocrit Group (%)",
+       y = "Mortality Rate (per 1,000 patients)",
+       fill = "Dose Quartile") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(size = 16),
+    axis.title.x = element_text(size = 14, face = "bold", margin = margin(t = 30, b = 5)), # Adjust the top and bottom margin as needed
+    axis.title.y = element_text(size = 14, face = "bold", margin = margin(l = 5, r = 15)),
+    legend.title = element_text(size = 12),
+    legend.position = "bottom",
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5, face = "bold")) +  scale_x_discrete(limits = c("<30%", "30% to <33%", "33% to <36%", "36% to <39%", ">=39%", "All"))
+                                                        
+ggsave("mortality_rates_redesigned.png", width = 12, height = 6)
+
+
+```
+
+# Second try code:
+
+```{r, echo = FALSE}
+# Load required libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+
+# Define the mortality rates dataframe
+mortality_data <- data.frame(
+  Dose_Quartile = rep(c('Q1', 'Q2', 'Q3', 'Q4', 'All'), each = 6),
+  Hematocrit_Group = rep(c("<30%", "30% to <33%", "33% to <36%", "36% to <39%", ">=39%", "All"), times = 5),
+  Mortality_Rate = c(
+    271, 245, 185, 184, 177, 203, # Q1 data
+    344, 278, 212, 195, 186, 232, # Q2 data
+    425, 316, 247, 199, 180, 265, # Q3 data
+    501, 354, 280, 227, 196, 310, # Q4 data
+    412, 297, 225, 200, 186, 251  # All data
+  )
+)
+
+# Create the lollipop chart
+ggplot(mortality_data, aes(x = Hematocrit_Group, y = Mortality_Rate, color = Dose_Quartile)) +
+  geom_point(position = position_dodge(width = 0.5), size = 3) +
+  geom_segment(aes(x = Hematocrit_Group, xend = Hematocrit_Group, y = 0, yend = Mortality_Rate), 
+               position = position_dodge(width = 0.3), color = "grey") +
+  scale_color_brewer(palette = "Set2") +
+  labs(title = "Unadjusted 1-year Mortality Rates per 1,000 Patients",
+       subtitle = "By Hematocrit Level and Epoetin Dose Quartile",
+       x = "Hematocrit Group (%)",
+       y = "Mortality Rate (per 1,000 patients)",
+       color = "Dose Quartile") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(size = 16),
+    axis.title.x = element_text(size = 14, face = "bold", margin = margin(t = 30, b = 5)),
+    axis.title.y = element_text(size = 14, face = "bold", margin = margin(l = 5, r = 15)),
+    legend.title = element_text(size = 12),
+    legend.position = "bottom",
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5, face = "bold")
+  )
+
+# Save the plot to a file
+ggsave("mortality_rates_lollipop.png", width = 12, height = 6)
+
+
+```
+
