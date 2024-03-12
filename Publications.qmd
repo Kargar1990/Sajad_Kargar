@@ -4,8 +4,6 @@ format: html
 editor: visual
 ---
 
-## Publications
-
 For a full list of publications, visit my [Google Scholar profile](https://scholar.google.com/citations?user=RtCQl78AAAAJ&hl=en).
 
 ### Journal Papers

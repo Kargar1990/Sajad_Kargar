@@ -4,8 +4,6 @@ format: html
 editor: visual
 ---
 
-# Bad Visualization
-
 ![](badvisualization.PNG){fig-align="center" width="407"}
 
 There are several issues with this 3D bar chart that affect its readability and effectiveness:

@@ -4,8 +4,6 @@ format: html
 editor: visual
 ---
 
-# Contact Us
-
 Wish to enquire about projects, publications, or anything else? You can reach me via phone or email, or by filling out the form below.
 
 ::: contact-info

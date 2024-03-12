@@ -1,10 +1,8 @@
 ---
-title: "Skills"
+title: "Software Skills"
 format: html
 editor: visual
 ---
-
-## Software Skills
 
 ### Computational
 

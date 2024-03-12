@@ -1,10 +1,8 @@
 ---
-title: "Honors"
+title: "Honors & Awards"
 format: html
 editor: visual
 ---
-
-## Honors & Awards
 
 -   **Presidential Scholarship**\
     Awarded as 1 out of 30 Ph.D. candidates in Mechanical Engineering, exclusively chosen for full four-year program support with no other recipients until my graduation.\

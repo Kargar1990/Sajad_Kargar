@@ -1,10 +1,8 @@
 ---
-title: "Experiences"
+title: "Work & Research Experiences"
 format: html
 editor: visual
 ---
-
-# Work & Research Experiences
 
 ## Parspajouhaan Educational Group
 

@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "My Portfolio"
 author: "Sajad Kargar"
 format: html
 editor: visual
@@ -8,8 +8,6 @@ editor: visual
 ::: profile
 <img src="profile.jpg" alt="Profile Picture"/>
 :::
-
-# Welcome to My Portfolio
 
 ## About Me
 
