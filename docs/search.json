@@ -1,73 +1,38 @@
 [
   {
+    "objectID": "Skills.html",
+    "href": "Skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "Computational\n\nAutodesk CFD\nANSYS Fluent\nSTAR CCM+\nICEM CFD\nRocky DEM\nCFD\nCOMSOL\nAbaqus\nMaterials Studio\nGROMACS\n\n\n\nProgramming\n\nPython\nLAMMPS\nC++\nMATLAB\nVMD\nNAMD\nMaple\nPackmol\nEES\n\n\n\nModeling\n\nCATIA\nSolidWorks\nLumerical\nAutoCAD\nGeoStudio\nPlaxis\nGambit\n\n\n\nData Analysis\n\nData Visualizations (R)\nData Analytics\nData Mining\nBig Data Processing\n\n\n\nGeneral\n\nAdobe Premiere/Photoshop\nLaTeX\nTecplot\nMicrosoft Office"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Midterm",
+    "section": "",
+    "text": "There are several issues with this 3D bar chart that affect its readability and effectiveness:"
+  },
+  {
+    "objectID": "Projects.html#what-could-improve-this-visualization",
+    "href": "Projects.html#what-could-improve-this-visualization",
+    "title": "Midterm",
+    "section": "What could improve this visualization:",
+    "text": "What could improve this visualization:\n\nSwitch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
+  },
+  {
     "objectID": "Home.html#about-me",
     "href": "Home.html#about-me",
-    "title": "My Portfolio",
+    "title": "Portfolio",
     "section": "About Me",
     "text": "About Me\nI am a Mechanical Engineering PhD candidate with a specialization in HVAC systems and a keen focus on optimizing thermal management solutions for data centers. My expertise encompasses advanced CFD, proposal writing, and robust data analytics, skills that I’ve developed through practical leadership roles in project management and collaborative projects.\nWith a proficiency in both technical analyses and teamwork, I bridge the gap between theoretical research and real-world applications, leveraging tools like Autodesk CFD, SolidWorks, and programming languages Python & R to enhance system performance. I thrive in fast-paced environments, delivering diagnostic expertise and strategic visions that contribute to the advancements in data center cooling technologies."
   },
   {
     "objectID": "Home.html#education",
     "href": "Home.html#education",
-    "title": "My Portfolio",
+    "title": "Portfolio",
     "section": "Education",
     "text": "Education\n\nDoctor of Philosophy, Mechanical Engineering, George Mason University, USA (Aug. 2021 — Ongoing)\nMaster of Science, Data Analytics, George Mason University, USA (Aug. 2023 — Ongoing)\nMaster of Science, Mechanical Engineering, Sharif University of Technology, Iran (Sep. 2013 — Sep. 2015)\nBachelor of Science, Mechanical Engineering, Tafresh University, Iran (Sep. 2009 — Sep. 2013)\n\nI am currently seeking a summer internship to apply my skills in real-world scenarios, particularly in projects focused on enhancing data center cooling technologies."
-  },
-  {
-    "objectID": "Experiences.html",
-    "href": "Experiences.html",
-    "title": "Work & Research Experiences",
-    "section": "",
-    "text": "Position: Instructor\nLocation: Tehran, Iran\nDuration: Sep. 2015 — Aug. 2021\n\nMain Achievements: Led advanced engineering software courses, significantly enhancing the technical proficiency of approximately 600 students.\nResponsibilities:\n\nServed as Lead Instructor for Advanced Engineering Software, developing future engineers’ skills in ANSYS Fluent, COMSOL, SolidWorks, and CATIA.\nDesigned comprehensive coursework to enable proficient use of industry-standard engineering tools, enhancing student capabilities in simulation, modeling, and analysis."
-  },
-  {
-    "objectID": "Experiences.html#parspajouhaan-educational-group",
-    "href": "Experiences.html#parspajouhaan-educational-group",
-    "title": "Work & Research Experiences",
-    "section": "",
-    "text": "Position: Instructor\nLocation: Tehran, Iran\nDuration: Sep. 2015 — Aug. 2021\n\nMain Achievements: Led advanced engineering software courses, significantly enhancing the technical proficiency of approximately 600 students.\nResponsibilities:\n\nServed as Lead Instructor for Advanced Engineering Software, developing future engineers’ skills in ANSYS Fluent, COMSOL, SolidWorks, and CATIA.\nDesigned comprehensive coursework to enable proficient use of industry-standard engineering tools, enhancing student capabilities in simulation, modeling, and analysis."
-  },
-  {
-    "objectID": "Experiences.html#orviss",
-    "href": "Experiences.html#orviss",
-    "title": "Work & Research Experiences",
-    "section": "ORVISS",
-    "text": "ORVISS\nPosition: Senior Mechanical Design Engineer\nLocation: Tehran, Iran\nDuration: Dec. 2013 — Aug. 2021\n\nMain Achievements: Led the design and optimization of HVAC systems for data centers, focusing on chillers, cooling capacity, and efficient system performance.\nResponsibilities:\n\nDirected a cross-functional team to address and solve critical design challenges, improving system reliability within data center environments.\nUtilized advanced CFD analysis for thermal management optimization, contributing to better heat dissipation and energy efficiency.\nAdvocated for sustainable design practices, significantly reducing carbon footprints and setting new benchmarks for future projects."
-  },
-  {
-    "objectID": "Experiences.html#sanat-zaman-company",
-    "href": "Experiences.html#sanat-zaman-company",
-    "title": "Work & Research Experiences",
-    "section": "Sanat Zaman Company",
-    "text": "Sanat Zaman Company\nPosition: Supervisor of Cooling Infrastructure\nLocation: Tehran, Iran\nDuration: Sep. 2013 — Sep. 2017\n\nMain Achievements: Oversaw cooling infrastructure projects, ensuring optimal performance and adherence to industry standards.\nResponsibilities:\n\nSupervised the installation and operation of cooling systems, promoting innovative solutions for efficiency and sustainability.\nLed a team of specialists in the design and execution of cooling infrastructures, meeting rigorous industry and project standards."
-  },
-  {
-    "objectID": "Experiences.html#khomein-cotton-industry-factory",
-    "href": "Experiences.html#khomein-cotton-industry-factory",
-    "title": "Work & Research Experiences",
-    "section": "Khomein Cotton Industry Factory",
-    "text": "Khomein Cotton Industry Factory\nPosition: Intern\nLocation: Khomein, Iran\nDuration: Jul. 2012 — Oct. 2012\n\nMain Achievements: Optimized heating boiler systems for increased efficiency and safety, demonstrating proficiency in thermodynamics and heat transfer."
-  },
-  {
-    "objectID": "Experiences.html#ph.d.-thesis-improving-free-cooling-systems-for-data-centers-through-simulations-experiments-and-data-analytics",
-    "href": "Experiences.html#ph.d.-thesis-improving-free-cooling-systems-for-data-centers-through-simulations-experiments-and-data-analytics",
-    "title": "Work & Research Experiences",
-    "section": "Ph.D. Thesis: “Improving Free Cooling Systems for Data Centers through Simulations, Experiments, and Data Analytics”",
-    "text": "Ph.D. Thesis: “Improving Free Cooling Systems for Data Centers through Simulations, Experiments, and Data Analytics”\n\nInnovated an integrated air-to-air heat exchanger design within building structures, showcasing a passive cooling method that leverages building surfaces for heat transfer.\nExplored the relationship between energy and water usage in data centers, aiming to reduce the environmental impact of these facilities.\nContributed to a National Science Foundation-sponsored project, developing nanoparticle-infused liquids for cooling technologies, targeting a significant reduction in CO2 emissions.\n\nThis format not only highlights your positions and main achievements but also outlines your responsibilities and contributions, providing a comprehensive overview of your professional journey and research endeavors."
-  },
-  {
-    "objectID": "Honors.html",
-    "href": "Honors.html",
-    "title": "Honors & Awards",
-    "section": "",
-    "text": "Presidential Scholarship\nAwarded as 1 out of 30 Ph.D. candidates in Mechanical Engineering, exclusively chosen for full four-year program support with no other recipients until my graduation.\nFairfax, VA, USA\n1st Place, CEC Innovation Week Poster Competition\nAwarded 1st place in the CEC Innovation Week poster competition.\nFairfax, VA, USA\nInventive Engineer\nChosen as the Inventive Engineer at Sanat Zaman Company.\nTehran, Iran\nSenior Mechanical Design Engineer\nChosen as the Senior Mechanical Design Engineer at ORVISS Company.\nTehran, Iran\nBest Mechanics Magazine Author\nCertified as the best Mechanics Magazine Author in Tafresh University.\nTehran, Iran\n12th Place\nAmong more than 400,000 participants in the entrance exam of Azad University.\nIran\n7th Place, Nationwide Olympiad in Mathematics\nIran\nFinalist, Nationwide Olympiad in Physics and Mathematics\nIran\nGold Prize, Markazi Olympiad in Mathematics\nAmong more than 10,000 candidates.\nArak, Iran"
-  },
-  {
-    "objectID": "Honors.html#honors-awards",
-    "href": "Honors.html#honors-awards",
-    "title": "Honors",
-    "section": "",
-    "text": "Presidential Scholarship\nAwarded as 1 out of 30 Ph.D. candidates in Mechanical Engineering, exclusively chosen for full four-year program support with no other recipients until my graduation.\nFairfax, VA, USA\n1st Place, CEC Innovation Week Poster Competition\nAwarded 1st place in the CEC Innovation Week poster competition.\nFairfax, VA, USA\nInventive Engineer\nChosen as the Inventive Engineer at Sanat Zaman Company.\nTehran, Iran\nSenior Mechanical Design Engineer\nChosen as the Senior Mechanical Design Engineer at ORVISS Company.\nTehran, Iran\nBest Mechanics Magazine Author\nCertified as the best Mechanics Magazine Author in Tafresh University.\nTehran, Iran\n12th Place\nAmong more than 400,000 participants in the entrance exam of Azad University.\nIran\n7th Place, Nationwide Olympiad in Mathematics\nIran\nFinalist, Nationwide Olympiad in Physics and Mathematics\nIran\nGold Prize, Markazi Olympiad in Mathematics\nAmong more than 10,000 candidates.\nArak, Iran"
   },
   {
     "objectID": "Contact.html",
@@ -77,87 +42,59 @@
     "text": "Wish to enquire about projects, publications, or anything else? You can reach me via phone or email, or by filling out the form below.\n\n\n\nAddress\n\n\nIABR, 10920 George Mason Circle, Manassas, VA 20110 United States\n\n\nPhone\n\n\n+1-646-646-4828\n\n\nEmail\n\n\nskargar@gmu.edu\n\n\n\n\n\nFull name \nEmail address \nSubject \nYour message"
   },
   {
+    "objectID": "Experiences.html",
+    "href": "Experiences.html",
+    "title": "Experiences",
+    "section": "",
+    "text": "Position: Instructor\nLocation: Tehran, Iran\nDuration: Sep. 2015 — Aug. 2021\n\nMain Achievements: Led advanced engineering software courses, significantly enhancing the technical proficiency of approximately 600 students.\nResponsibilities:\n\nServed as Lead Instructor for Advanced Engineering Software, developing future engineers’ skills in ANSYS Fluent, COMSOL, SolidWorks, and CATIA.\nDesigned comprehensive coursework to enable proficient use of industry-standard engineering tools, enhancing student capabilities in simulation, modeling, and analysis."
+  },
+  {
+    "objectID": "Experiences.html#parspajouhaan-educational-group",
+    "href": "Experiences.html#parspajouhaan-educational-group",
+    "title": "Experiences",
+    "section": "",
+    "text": "Position: Instructor\nLocation: Tehran, Iran\nDuration: Sep. 2015 — Aug. 2021\n\nMain Achievements: Led advanced engineering software courses, significantly enhancing the technical proficiency of approximately 600 students.\nResponsibilities:\n\nServed as Lead Instructor for Advanced Engineering Software, developing future engineers’ skills in ANSYS Fluent, COMSOL, SolidWorks, and CATIA.\nDesigned comprehensive coursework to enable proficient use of industry-standard engineering tools, enhancing student capabilities in simulation, modeling, and analysis."
+  },
+  {
+    "objectID": "Experiences.html#orviss",
+    "href": "Experiences.html#orviss",
+    "title": "Experiences",
+    "section": "ORVISS",
+    "text": "ORVISS\nPosition: Senior Mechanical Design Engineer\nLocation: Tehran, Iran\nDuration: Dec. 2013 — Aug. 2021\n\nMain Achievements: Led the design and optimization of HVAC systems for data centers, focusing on chillers, cooling capacity, and efficient system performance.\nResponsibilities:\n\nDirected a cross-functional team to address and solve critical design challenges, improving system reliability within data center environments.\nUtilized advanced CFD analysis for thermal management optimization, contributing to better heat dissipation and energy efficiency.\nAdvocated for sustainable design practices, significantly reducing carbon footprints and setting new benchmarks for future projects."
+  },
+  {
+    "objectID": "Experiences.html#sanat-zaman-company",
+    "href": "Experiences.html#sanat-zaman-company",
+    "title": "Experiences",
+    "section": "Sanat Zaman Company",
+    "text": "Sanat Zaman Company\nPosition: Supervisor of Cooling Infrastructure\nLocation: Tehran, Iran\nDuration: Sep. 2013 — Sep. 2017\n\nMain Achievements: Oversaw cooling infrastructure projects, ensuring optimal performance and adherence to industry standards.\nResponsibilities:\n\nSupervised the installation and operation of cooling systems, promoting innovative solutions for efficiency and sustainability.\nLed a team of specialists in the design and execution of cooling infrastructures, meeting rigorous industry and project standards."
+  },
+  {
+    "objectID": "Experiences.html#khomein-cotton-industry-factory",
+    "href": "Experiences.html#khomein-cotton-industry-factory",
+    "title": "Experiences",
+    "section": "Khomein Cotton Industry Factory",
+    "text": "Khomein Cotton Industry Factory\nPosition: Intern\nLocation: Khomein, Iran\nDuration: Jul. 2012 — Oct. 2012\n\nMain Achievements: Optimized heating boiler systems for increased efficiency and safety, demonstrating proficiency in thermodynamics and heat transfer."
+  },
+  {
+    "objectID": "Experiences.html#ph.d.-thesis-improving-free-cooling-systems-for-data-centers-through-simulations-experiments-and-data-analytics",
+    "href": "Experiences.html#ph.d.-thesis-improving-free-cooling-systems-for-data-centers-through-simulations-experiments-and-data-analytics",
+    "title": "Experiences",
+    "section": "Ph.D. Thesis: “Improving Free Cooling Systems for Data Centers through Simulations, Experiments, and Data Analytics”",
+    "text": "Ph.D. Thesis: “Improving Free Cooling Systems for Data Centers through Simulations, Experiments, and Data Analytics”\n\nInnovated an integrated air-to-air heat exchanger design within building structures, showcasing a passive cooling method that leverages building surfaces for heat transfer.\nExplored the relationship between energy and water usage in data centers, aiming to reduce the environmental impact of these facilities.\nContributed to a National Science Foundation-sponsored project, developing nanoparticle-infused liquids for cooling technologies, targeting a significant reduction in CO2 emissions.\n\nThis format not only highlights your positions and main achievements but also outlines your responsibilities and contributions, providing a comprehensive overview of your professional journey and research endeavors."
+  },
+  {
+    "objectID": "Honors.html",
+    "href": "Honors.html",
+    "title": "Honors",
+    "section": "",
+    "text": "Presidential Scholarship\nAwarded as 1 out of 30 Ph.D. candidates in Mechanical Engineering, exclusively chosen for full four-year program support with no other recipients until my graduation.\nFairfax, VA, USA\n1st Place, CEC Innovation Week Poster Competition\nAwarded 1st place in the CEC Innovation Week poster competition.\nFairfax, VA, USA\nInventive Engineer\nChosen as the Inventive Engineer at Sanat Zaman Company.\nTehran, Iran\nSenior Mechanical Design Engineer\nChosen as the Senior Mechanical Design Engineer at ORVISS Company.\nTehran, Iran\nBest Mechanics Magazine Author\nCertified as the best Mechanics Magazine Author in Tafresh University.\nTehran, Iran\n12th Place\nAmong more than 400,000 participants in the entrance exam of Azad University.\nIran\n7th Place, Nationwide Olympiad in Mathematics\nIran\nFinalist, Nationwide Olympiad in Physics and Mathematics\nIran\nGold Prize, Markazi Olympiad in Mathematics\nAmong more than 10,000 candidates.\nArak, Iran"
+  },
+  {
     "objectID": "Publications.html",
     "href": "Publications.html",
     "title": "Publications",
     "section": "",
     "text": "For a full list of publications, visit my Google Scholar profile.\n\nJournal Papers\n\nS. Kargar, Z. Baniamerian, JL. Moran, “Molecular dynamics calculations of the enthalpy of vaporization for different water models,” J. Mol. Liq. 393 (2023) 123455.\nS. Kargar, A. Moosavi, “Bidirectional water transport through non???straight carbon nanotubes,” J. Mol. Liq. 276 (2019) 39–46.\nA. Reihani, A. Soleimani, S. Kargar, V. Sundararaghavan, A. Ramazani, “Graphyne Nanotubes: Materials with Ultralow Phonon Mean Free Path and Strong Optical Phonon Scattering for Thermoelectric Applications,” J. Phys. Chem. C. 122 (2018) 22688–22698.\n\n\n\nPatents\n\nM. Karimi, Sh. Fazeli Panah, S. Kargar, “Skin heat exchanger,” App No: US 62/884, 802, USA, 2019.\nM. Karimi, Sh. Fazeli Panah, S. Kargar, “Compact rotary heat-exchanger,” App No: US 63/312, 159, USA, 2022.\n\n\n\nConference Proceedings\n\nS. Kargar, JL Moran, “Analyzing the phase-change of water molecules at the nanoscale using molecular dynamics,” Presented, 2023 Mason Graduate Interdisciplinary Conference, Fairfax, VA, USA, Mar. 2023.\nJL. Moran, A. Chandra, W. Peng, P. Keblinski, S. Kargar, “Potential of Active Particles for Heat Transfer Enhancement,” Presented, APS Division of Fluid Dynamics Meeting Abstracts, Arizona, USA, Nov. 2021.\nS. Kargar, A. Moosavi, Z. Baniamerian, R. Mehdipour, “Numerical simulation of viscous flows by smoothed particle hydrodynamics”, Presented, ISME, Tehran, Iran, May. 2020.\nS. Kargar, A. Moosavi, J. Kargar, M Irani???Rahaghi, “Transport behavior of a protein in carbon nanotubes”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, Z. Baniamerian, R. Mehdipour, “Desalination Using Nanoporous Graphene”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, J. Kargar, M. Karimi, A. Moosavi, “Molecular dynamics simulations of lithium???ion batteries at high temperatures”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, A. Soleimani, A. Moosavi, “Molecular Dynamic Simulations of Lithium Cobalt Oxide Cathode Materials”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nS. Kargar, A. Ghanbari, A. Moosavi, Z. Seyedraoufi, “Simulation of Flow \\(Ni-P-Al_{2}O_{3}-TiO_{2}\\) nano composite coating by Prediction (ANN)”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Ghanbari, S. Kargar, J. Kargar “Investigation of thermal conductivity of silicon nanowires using molecular dynamics”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nJ. Kargar, S. Kargar, N. Hadian, A. Ghanbari “Investigation of Single Wall Carbon Nanotubes (SWCNTs) Mechanical Properties”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Ghanbari, S, Kargar, “Preparation of \\(Ni-P-Al_{2}O_{3}-TiO_{2}\\) Nano composite coating by Electroless”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Soleimani, M.R. Zamani???Kouhpanji, M. Ghorbanzadeh, S. Kargar “Molecular dynamic simulations of Lithium Cobalt Oxide cathode materials”, Presented, LAMMPS Workshop and Symposium, Sandia National Laboratories, New Mexico, United States, Aug. 2017.\nA. Ghanbari, S. Kargar, “Simulation of Flow EN Nanocomposite Coating by Prediction (ANN)”, Presented, ICNS6, Kish Island, Iran, Mar. 2016.\nS. Kargar, A. Moosavi, “The Effect of Bending Angle on the Fluid Flow in Carbon Nanotubes”, Presented, ICNS6, Kish Island, Iran, Mar. 2016.\nS. Kargar, A. Moosavi, “Thermo???mechanical Properties of Silicon Nanowires Using Molecular Dynamics Simulation”, Presented, 4th Nano Today Conference, Dubai, United Arab Emirates, Dec. 2015."
-  },
-  {
-    "objectID": "Publications.html#publications",
-    "href": "Publications.html#publications",
-    "title": "Publications",
-    "section": "",
-    "text": "For a full list of publications, visit my Google Scholar profile.\n\n\n\nS. Kargar, Z. Baniamerian, JL. Moran, “Molecular dynamics calculations of the enthalpy of vaporization for different water models,” J. Mol. Liq. 393 (2023) 123455.\nS. Kargar, A. Moosavi, “Bidirectional water transport through non???straight carbon nanotubes,” J. Mol. Liq. 276 (2019) 39–46.\nA. Reihani, A. Soleimani, S. Kargar, V. Sundararaghavan, A. Ramazani, “Graphyne Nanotubes: Materials with Ultralow Phonon Mean Free Path and Strong Optical Phonon Scattering for Thermoelectric Applications,” J. Phys. Chem. C. 122 (2018) 22688–22698.\n\n\n\n\n\nM. Karimi, Sh. Fazeli Panah, S. Kargar, “Skin heat exchanger,” App No: US 62/884, 802, USA, 2019.\nM. Karimi, Sh. Fazeli Panah, S. Kargar, “Compact rotary heat-exchanger,” App No: US 63/312, 159, USA, 2022.\n\n\n\n\n\nS. Kargar, JL Moran, “Analyzing the phase-change of water molecules at the nanoscale using molecular dynamics,” Presented, 2023 Mason Graduate Interdisciplinary Conference, Fairfax, VA, USA, Mar. 2023.\nJL. Moran, A. Chandra, W. Peng, P. Keblinski, S. Kargar, “Potential of Active Particles for Heat Transfer Enhancement,” Presented, APS Division of Fluid Dynamics Meeting Abstracts, Arizona, USA, Nov. 2021.\nS. Kargar, A. Moosavi, Z. Baniamerian, R. Mehdipour, “Numerical simulation of viscous flows by smoothed particle hydrodynamics”, Presented, ISME, Tehran, Iran, May. 2020.\nS. Kargar, A. Moosavi, J. Kargar, M Irani???Rahaghi, “Transport behavior of a protein in carbon nanotubes”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, Z. Baniamerian, R. Mehdipour, “Desalination Using Nanoporous Graphene”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, J. Kargar, M. Karimi, A. Moosavi, “Molecular dynamics simulations of lithium???ion batteries at high temperatures”, Presented, ICNS8, Tehran, Iran, Apr. 2020.\nS. Kargar, A. Soleimani, A. Moosavi, “Molecular Dynamic Simulations of Lithium Cobalt Oxide Cathode Materials”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nS. Kargar, A. Ghanbari, A. Moosavi, Z. Seyedraoufi, “Simulation of Flow \\(Ni-P-Al_{2}O_{3}-TiO_{2}\\) nano composite coating by Prediction (ANN)”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Ghanbari, S. Kargar, J. Kargar “Investigation of thermal conductivity of silicon nanowires using molecular dynamics”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nJ. Kargar, S. Kargar, N. Hadian, A. Ghanbari “Investigation of Single Wall Carbon Nanotubes (SWCNTs) Mechanical Properties”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Ghanbari, S, Kargar, “Preparation of \\(Ni-P-Al_{2}O_{3}-TiO_{2}\\) Nano composite coating by Electroless”, Presented, ICNS7, Tehran, Iran, Feb. 2018.\nA. Soleimani, M.R. Zamani???Kouhpanji, M. Ghorbanzadeh, S. Kargar “Molecular dynamic simulations of Lithium Cobalt Oxide cathode materials”, Presented, LAMMPS Workshop and Symposium, Sandia National Laboratories, New Mexico, United States, Aug. 2017.\nA. Ghanbari, S. Kargar, “Simulation of Flow EN Nanocomposite Coating by Prediction (ANN)”, Presented, ICNS6, Kish Island, Iran, Mar. 2016.\nS. Kargar, A. Moosavi, “The Effect of Bending Angle on the Fluid Flow in Carbon Nanotubes”, Presented, ICNS6, Kish Island, Iran, Mar. 2016.\nS. Kargar, A. Moosavi, “Thermo???mechanical Properties of Silicon Nanowires Using Molecular Dynamics Simulation”, Presented, 4th Nano Today Conference, Dubai, United Arab Emirates, Dec. 2015."
-  },
-  {
-    "objectID": "Skills.html",
-    "href": "Skills.html",
-    "title": "Software Skills",
-    "section": "",
-    "text": "Computational\n\nAutodesk CFD\nANSYS Fluent\nSTAR CCM+\nICEM CFD\nRocky DEM\nCFD\nCOMSOL\nAbaqus\nMaterials Studio\nGROMACS\n\n\n\nProgramming\n\nPython\nLAMMPS\nC++\nMATLAB\nVMD\nNAMD\nMaple\nPackmol\nEES\n\n\n\nModeling\n\nCATIA\nSolidWorks\nLumerical\nAutoCAD\nGeoStudio\nPlaxis\nGambit\n\n\n\nData Analysis\n\nData Visualizations (R)\nData Analytics\nData Mining\nBig Data Processing\n\n\n\nGeneral\n\nAdobe Premiere/Photoshop\nLaTeX\nTecplot\nMicrosoft Office"
-  },
-  {
-    "objectID": "Skills.html#software-skills",
-    "href": "Skills.html#software-skills",
-    "title": "Skills",
-    "section": "",
-    "text": "Autodesk CFD\nANSYS Fluent\nSTAR CCM+\nICEM CFD\nRocky DEM\nCFD\nCOMSOL\nAbaqus\nMaterials Studio\nGROMACS\n\n\n\n\n\nPython\nLAMMPS\nC++\nMATLAB\nVMD\nNAMD\nMaple\nPackmol\nEES\n\n\n\n\n\nCATIA\nSolidWorks\nLumerical\nAutoCAD\nGeoStudio\nPlaxis\nGambit\n\n\n\n\n\nData Visualizations (R)\nData Analytics\nData Mining\nBig Data Processing\n\n\n\n\n\nAdobe Premiere/Photoshop\nLaTeX\nTecplot\nMicrosoft Office"
-  },
-  {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "There are several issues with this 3D bar chart that affect its readability and effectiveness:\n\nPerspective distortion: It is difficult to compare the heights of the bars accurately due to the 3D perspective. Due to the angle, the data may appear shorter in the back than in the front.\nColor usage: The use of different colors might be intended to differentiate between groups, but color blind individuals may have difficulty distinguishing between categories because of the similarity in hues.\nData density: There is a lot of graphic space used to display a relatively small amount of data in the chart. By adding too much visual information to a chart, it could appear cluttered and overpower the viewer.\nInk ratio: The ratio of ink to data is high, so a lot of ink is used to present the data, which is unnecessary and does not add value.\nDepth occlusion: From the perspective of the viewer, bars in front can obscure bars behind them, obscuring some data points or partially obscuring them.\nQuantitative comparison: With a 3D effect, there is a third dimension that is not a data dimension, complicating a quantitative comparison that should be straightforward.\nAbsence of gridlines: As a result of the 3D perspective, the gridlines are not aligned with the front of the bars, which would have helped to assess their height.\n\n\n\n\nSwitch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
-  },
-  {
-    "objectID": "Projects.html#what-could-improve-this-visualization",
-    "href": "Projects.html#what-could-improve-this-visualization",
-    "title": "Projects",
-    "section": "",
-    "text": "Switch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
-  },
-  {
-    "objectID": "Midterm recording.html",
-    "href": "Midterm recording.html",
-    "title": "Midterm recording",
-    "section": "",
-    "text": "First try code:\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\n\n\nSecond try code:\n\n\n\n\n\n\n\nMy presentation:\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/watch?v=0jKa5T0n7Dk\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;"
-  },
-  {
-    "objectID": "Midterm explanation.html",
-    "href": "Midterm explanation.html",
-    "title": "Midterm explanation",
-    "section": "",
-    "text": "There are several issues with this 3D bar chart that affect its readability and effectiveness:\n\nPerspective distortion: It is difficult to compare the heights of the bars accurately due to the 3D perspective. Due to the angle, the data may appear shorter in the back than in the front.\nColor usage: The use of different colors might be intended to differentiate between groups, but color blind individuals may have difficulty distinguishing between categories because of the similarity in hues.\nData density: There is a lot of graphic space used to display a relatively small amount of data in the chart. By adding too much visual information to a chart, it could appear cluttered and overpower the viewer.\nInk ratio: The ratio of ink to data is high, so a lot of ink is used to present the data, which is unnecessary and does not add value.\nDepth occlusion: From the perspective of the viewer, bars in front can obscure bars behind them, obscuring some data points or partially obscuring them.\nQuantitative comparison: With a 3D effect, there is a third dimension that is not a data dimension, complicating a quantitative comparison that should be straightforward.\nAbsence of gridlines: As a result of the 3D perspective, the gridlines are not aligned with the front of the bars, which would have helped to assess their height.\n\n\n\n\nSwitch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
-  },
-  {
-    "objectID": "Midterm explanation.html#what-could-improve-this-visualization",
-    "href": "Midterm explanation.html#what-could-improve-this-visualization",
-    "title": "Midterm explanation",
-    "section": "",
-    "text": "Switch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Midterm explanation",
-    "section": "",
-    "text": "There are several issues with this 3D bar chart that affect its readability and effectiveness:"
-  },
-  {
-    "objectID": "projects.html#what-could-improve-this-visualization",
-    "href": "projects.html#what-could-improve-this-visualization",
-    "title": "Midterm explanation",
-    "section": "What could improve this visualization:",
-    "text": "What could improve this visualization:\n\nSwitch to a 2D plot: Comparing the data points would be easier and more accurate with a two-dimensional bar chart or line chart.\nConsistent scale: To ensure that all data points can be compared fairly, use a vertical scale that does not change with depth.\nSimplify color scheme: To distinguish between the groups, use simpler color schemes or different patterns/shades.\nUse of gridlines: To aid in the assessment of the bar heights, introduce horizontal gridlines across the entire graph.\nDirect labeling: In order to make charts easier to read, label data directly whenever possible to avoid the need for a legend.\nInteractive elements: A digital view could benefit from interactive elements such as tooltips on hover that provide additional details without cluttering the view.\nPrioritize key data: To focus the viewer’s attention on what matters most, highlight key data or trends and consider removing less critical information."
-  },
-  {
-    "objectID": "Midterm_recording.html",
-    "href": "Midterm_recording.html",
-    "title": "Midterm recording",
-    "section": "",
-    "text": "First try code:\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\n\n\nSecond try code:\n\n\n\n\n\n\n\nMy presentation:\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/watch?v=0jKa5T0n7Dk\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;"
   }
 ]
